@@ -12,3 +12,10 @@ Linux网络相关常用命令
 
 
 
+本来不想写太多关于Linux的事，但情况其实让人很气
+
+    public static void main() 
+        asdfa
+        new baidu.com
+
+erq
