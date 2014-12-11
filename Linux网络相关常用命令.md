@@ -6,4 +6,8 @@ Linux网络相关常用命令
 
 关闭/开启网卡
 
+1. 安装/卸载软件
+```apt-get install/purge git```
+
+
 
