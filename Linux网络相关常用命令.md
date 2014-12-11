@@ -1,5 +1,4 @@
-Linux网络相关常用命令
-====================
+###Linux网络相关常用命令
 
 
 1. sudo ifconfig eth0 down/up  
