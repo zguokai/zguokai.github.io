@@ -2,20 +2,11 @@ Linux网络相关常用命令
 ====================
 
 
-1、sudo ifconfig eth0 down/up
+1. sudo ifconfig eth0 down/up  
 
 关闭/开启网卡
 
-1. 安装/卸载软件     
+2. 安装/卸载软件  
 
 ```apt-get install/purge git```
 
-
-
-本来不想写太多关于Linux的事，但情况其实让人很气
-
-    public static void main() 
-        asdfa
-        new baidu.com
-
-erq
