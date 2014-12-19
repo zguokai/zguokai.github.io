@@ -7,5 +7,7 @@
 2. 安装/卸载软件  
 ```apt-get install/purge git```
 
-3. 待写  
-我没有什么可以再写报
+3. 修改主机HOSTNAME  
+待写
+
+4. 
