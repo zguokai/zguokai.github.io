@@ -8,6 +8,7 @@
 ```apt-get install/purge git```
 
 3. 修改主机HOSTNAME  
-待写
+hostname newname
+vim /etc/hostname
 
 4. 
