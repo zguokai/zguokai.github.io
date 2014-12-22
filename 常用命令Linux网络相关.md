@@ -11,4 +11,6 @@
 hostname newname
 vim /etc/hostname
 
-4. 
+4. tar压缩与解压
+tar -zcvf dist.tar.gz sourcedir
+tar -zxvf dist.tar.gz
