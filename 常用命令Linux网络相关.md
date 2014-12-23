@@ -25,4 +25,13 @@ service iptables restart
 非永久性生效用以下命令：  
 iptables -I INPUT -p tcp --dport 80 -j ACCEPT  
 
+6. CentOS设置IP  
+在/etc/sysconfig/...下设置IP
+在/etc/resolve.conf中设置nameserver 223.5.5.5  
+
+
+
+
+
+
 
