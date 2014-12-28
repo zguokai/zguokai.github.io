@@ -10,3 +10,17 @@ Executing SQL scripts
 
 @Sql
 @SqlConfig
+
+
+java -DSERVER_PORT=9002 -jar .\target\com.ricequant-1.0-SNAPSHOT.war  
+```
+@Bean
+	public EmbeddedServletContainerFactory servletContainer() {
+		TomcatEmbeddedServletContainerFactory factory = new TomcatEmbeddedServletContainerFactory();
+		factory.setPort(Integer.parseInt(System.getProperty("server.port", "9000")));
+		//factory.setPort(9000);
+		factory.setSessionTimeout(10, TimeUnit.MINUTES);
+		factory.addErrorPages(new ErrorPage(HttpStatus.NOT_FOUND, "/notfound.jsp"));
+		return factory;
+	}
+```
