@@ -24,3 +24,21 @@ java -DSERVER_PORT=9002 -jar .\target\com.ricequant-1.0-SNAPSHOT.war
 		return factory;
 	}
 ```
+
+### Spring-boot-cli  
+它也可以监控文件，当文件改变时，自动重新编译并重启
+
+
+### Spring-bbot-actuator
+它是高级的auto-configuration，可以用于监控应用运行时的各种参数。
+http://spring.io/guides/gs/spring-boot/
+
+
+### Session如何解决？  
+
+
+
+
+
+
+
