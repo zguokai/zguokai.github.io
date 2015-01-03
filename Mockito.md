@@ -6,4 +6,7 @@ http://site.mockito.org/mockito/docs/current/org/mockito/Mockito.html
 https://code.google.com/p/mockito/wiki/RelatedProjects
 
 ### Mockito with spring
-http://www.cnblogs.com/syxchina/p/4150879.html
+http://rdafbn.blogspot.com/2014/01/testing-spring-components-with-mockito.html
+
+### Mockito with mybatis
+
