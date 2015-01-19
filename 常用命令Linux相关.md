@@ -32,7 +32,7 @@ iptables -I INPUT -p tcp --dport 80 -j ACCEPT
 
 ### 常用命令Rpm详解  
 
-rpm search iptables  # 检索iptables*的相关安装软件  
+yum search iptables  # 检索iptables*的相关安装软件  
 
 －ivh：安装显示安装进度--install--verbose--hash  
 －Uvh：升级软件包--Update；  
