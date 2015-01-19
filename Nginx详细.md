@@ -10,6 +10,7 @@
 
 ##### 禁止IP访问
 
+
 server {  
     listen 80;  
     server_name www.xx.com xx.com;  
