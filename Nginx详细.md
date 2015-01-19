@@ -26,6 +26,7 @@ server {
 ##### load balance  
 
 http {  
+    
     upstream backend {  
         server ip:8080  
         server ip:8081  
