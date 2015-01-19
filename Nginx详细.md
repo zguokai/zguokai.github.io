@@ -28,6 +28,7 @@ server {
 http {  
     
     upstream backend {  
+        least_conn;  
         server ip:8080  
         server ip:8081  
     }  
