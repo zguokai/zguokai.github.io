@@ -21,3 +21,19 @@ server {
     server_name _;  
     return 444;  
 }  
+
+##### load balance  
+
+http {  
+    upstream backend {  
+        server ip:8080  
+        server ip:8081  
+    }  
+    
+    server {  
+        ...
+        location / {  
+            proxy_pass http://backend;  
+        }  
+    }  
+}  
