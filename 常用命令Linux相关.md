@@ -26,19 +26,21 @@ service iptables restart
 iptables -I INPUT -p tcp --dport 80 -j ACCEPT  
 
 6. CentOS设置IP  
-在/etc/sysconfig/...下设置IP
-在/etc/resolve.conf中设置nameserver 223.5.5.5  
+在/etc/sysconfig/...下设置IP  
+在/etc/resolve.conf中设置nameserver 223.5.5.5   
 
 
 ### 常用命令Rpm详解  
 
-－ivh：安装显示安装进度--install--verbose--hash
-－Uvh：升级软件包--Update；
-－qpl：列出RPM软件包内的文件信息[Query Package list]；
-－qpi：列出RPM软件包的描述信息[Query Package install package(s)]；
-－qf：查找指定文件属于哪个RPM软件包[Query File]；
-－Va：校验所有的RPM软件包，查找丢失的文件[View Lost]；
-－e：删除包
+rpm search iptables  # 检索iptables*的相关安装软件  
+
+－ivh：安装显示安装进度--install--verbose--hash  
+－Uvh：升级软件包--Update；  
+－qpl：列出RPM软件包内的文件信息[Query Package list]；  
+－qpi：列出RPM软件包的描述信息[Query Package install package(s)]；  
+－qf：查找指定文件属于哪个RPM软件包[Query File]；  
+－Va：校验所有的RPM软件包，查找丢失的文件[View Lost]；  
+－e：删除包  
 
 
 
