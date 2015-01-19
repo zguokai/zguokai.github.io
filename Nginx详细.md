@@ -7,3 +7,17 @@
 
 
 ### 配置实例
+
+##### 禁止IP访问
+
+server {  
+    listen 80;  
+    server_name www.xx.com xx.com;  
+    root /html;  
+}  
+
+server {  
+    listen 80 default_server;  
+    server_name _;  
+    return 444;  
+}  
