@@ -34,6 +34,9 @@ tcpdump -i any port 80
 /etc/dnsmasq.conf  
 service dnsmasq restart  
 
+9. 添加启动服务  
+chkconfig iptables on  
+
 
 ### 常用命令Rpm详解  
 
