@@ -28,7 +28,7 @@ iptables -I INPUT -p tcp --dport 80 -j ACCEPT
 在/etc/resolve.conf中设置nameserver 223.5.5.5  
 
 7. 监听端口连接  
-tcpdump -i any 80  
+tcpdump -i any port 80  
 
 8. 添加DNS记录  
 /etc/dnsmasq.conf  
