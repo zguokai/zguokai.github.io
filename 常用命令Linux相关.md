@@ -20,6 +20,9 @@ tar -zxvf dist.tar.gz
 -A INPUT -p tcp -m state --state NEW -m tcp --dport 80 -j ACCEPT  
 service iptables restart  
 
+开启所有端口连接  
+-A INPUT -i eth0 -j ACCEPT  
+
 非永久性生效用以下命令:   
 iptables -I INPUT -p tcp --dport 80 -j ACCEPT  
 
