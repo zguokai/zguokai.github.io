@@ -37,6 +37,11 @@ service dnsmasq restart
 9. 添加启动服务  
 chkconfig iptables on  
 
+10. 查看端口占用  
+netstat –nltp|grep pid  
+lsof -i:80  
+ps -ef | grep tomcat  
+
 
 ### 常用命令Rpm详解  
 
