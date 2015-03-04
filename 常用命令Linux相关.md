@@ -39,6 +39,7 @@ service dnsmasq restart
 
 9. 添加启动服务  
 chkconfig iptables on  
+systemctl start,stop,restart,status,enable,disable,is-enabled  
 
 10. 查看端口占用  
 netstat –nltp|grep pid  
