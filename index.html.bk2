@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <title>Kain's Blog</title>
+        <script>
+        </script>
+        <style>
+
+            @font-face
+            {
+                font-family: diediedie;
+                src: url('fonts/diediedie.ttf'),
+                     url('fonts/diediedie.eot'); /* IE9+ */
+            }
+
+            html,
+            body {
+                height: 100%;
+                width: 100%;
+            }
+            html,
+            body,
+            p,
+            div {
+                margin: 0;
+                padding: 0;
+                font-family: diediedie;
+                color: #000;
+                font-size: 1.2em;
+            }
+            body {
+                background: url(img/background4.jpg) no-repeat;
+                background-size: cover;
+            }
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+            .text {
+                position: absolute;
+                bottom: 20%;
+                right: 2%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="text">
+            <p>PERFECT IS SHIT.</p>
+            <p><a href="#">Kain's blog -></a>
+                <br><span>@2015</span>
+            </p>
+        </div>
+    </body>
+
+<ml>
